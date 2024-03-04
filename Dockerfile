@@ -22,6 +22,6 @@ EXPOSE 3306
 ENTRYPOINT ["mysqld"]
  
 # Add labels for better maintainability
-LABEL maintainer="Your Name <your.email@example.com>"
+LABEL maintainer="Your Name <elia.salerno@issgreppi.it>"
 LABEL version="1.0"
 LABEL description="Dockerfile for mariadb built from scratch with alpine"
