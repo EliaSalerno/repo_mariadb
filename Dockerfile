@@ -13,7 +13,7 @@ RUN apk update && apk upgrade
 RUN apk add mariadb mariadb-client
  
 # Copy the mariadb configuration file
-COPY my.cnf /etc/mysql/my.cnf
+# COPY my.cnf /etc/mysql/my.cnf
  
 # Expose the default port for mariadb
 EXPOSE 3306
